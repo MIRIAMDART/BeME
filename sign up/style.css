@@ -1,110 +1,74 @@
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+ body{
+    padding-top: 100px;
 }
-body {
-  font-family:'Lobster', cursive;
-  font-size: 16px;
-  font-weight: 400;
-  color: ##B2BEB5;
-  background-color: #f2f2f2;
+form{
+	padding: 20px;
+	    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 15px 0 rgba(0,0,0,0.12) !important;
 }
-h1 {
-  font-size: 2em;
-  text-align: center;
-  padding: 30px;
+h4{
+    text-align: center;
 }
-.container {
-  margin: 10px auto;
-  width: 400px;
-  max-width: 100%;
-  background-color: #f2f2f2;
-  padding: 20px;
-  border: solid 1px #d2d2d2;
-  box-shadow: 5px 5px 10px #d2d2d2;
+.btn{
+	border-radius: 0px;
 }
-.container:hover {
-  box-shadow: 5px 5px 5px #d2d2d2;
+.form-control{
+	border-radius: 0px;
+	margin-bottom: 10px;
 }
-.sign-up {
-  width: 50%;
-  height: 70px;
-  border: solid 2px #555555;
-  text-align: center;
+p{
+	margin-bottom: 10px;
+	margin-top: 10px;
+	text-align: center;
 }
-.sign-up:hover, .log-in:hover {
-  font-weight: bold;
-  cursor: pointer;
+.blue{
+	color: #337ab7;
 }
-.sign-up-header {
-  margin-top: 23px;
+.fa{
+	color: #337ab7;
 }
-.log-in {
-  width: 50%;
-  height: 70px;
-  border: solid 2px #555555;
-  margin-top: -70px;
-  margin-left: 178px;
+
+
+i{
+	margin-left: 5px;
+	margin-right: 5px;
 }
-.log-in-header {
-  margin-top: 23px;
-  text-align: center;
+
+
+
+
+.flip {
+  -webkit-perspective: 800;
+perspective: 800;
+
+    position: relative;
 }
-.active {
-  background-color: #555555;
-  color: #fff;
+.flip .card.flipped {
+  -webkit-transform: rotatey(-180deg);
+    transform: rotatey(-180deg);
 }
-input {
-  width: 100%;
-  padding: 12px;
-  border: solid 1px #555555;
-  margin-top: 10px;
-  font-family: inherit;
+.flip .card {
+
+  height: 100%;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transition: 0.5s;
+    transform-style: preserve-3d;
+    transition: 0.5s;
 }
-.first-name, .last-name {
-  width: 49.4%;
-  margin-top: -5px;
+.flip .card .face {
+
+  -webkit-backface-visibility: hidden ;
+    backface-visibility: hidden ;
+  z-index: 2;
+
 }
-.last-name {
-  margin-right: 0;
+.flip .card .front {
+  position: absolute;
+   width: 100%;
+  z-index: 1;
+
 }
-::placeholder {
-  font-style: italic;
+.flip .card .back {
+  -webkit-transform: rotatey(-180deg);
+    transform: rotatey(-180deg);
 }
-.email {
-  margin-top: -5px;
-}
-button {
-  width: 100%;
-  margin-top: 10px;
-  padding: 20px;
-  border: solid 2px #555555;
-  background-color: #555555;
-  color: #fff;
-  font-size: 1.4em;
-  text-transform: uppercase;
-}
-button:hover {
-  box-shadow: 5px 5px 10px #d2d2d2;
-  cursor: pointer;
-}
-#sign-up-form {
-  display: block;
-}
-#log-in-form {
-  display: none;
-}
-.password {
-  float: right;
-  font-style: italic;
-  margin-top: 9px
-}
-.password:hover {
-  font-weight: bold;
-  cursor: pointer;
-}
-:focus {
-  outline-color: orange;
-}
+  .inner{margin:0px !important;}
