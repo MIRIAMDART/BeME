@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  font-family:'Lobster', cursive;
+  font-size: 16px;
+  font-weight: 400;
+  color: ##B2BEB5;
+  background-color: #f2f2f2;
+}
+h1 {
+  font-size: 2em;
+  text-align: center;
+  padding: 30px;
+}
+.container {
+  margin: 10px auto;
+  width: 400px;
+  max-width: 100%;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border: solid 1px #d2d2d2;
+  box-shadow: 5px 5px 10px #d2d2d2;
+}
+.container:hover {
+  box-shadow: 5px 5px 5px #d2d2d2;
+}
+.sign-up {
+  width: 50%;
+  height: 70px;
+  border: solid 2px #555555;
+  text-align: center;
+}
+.sign-up:hover, .log-in:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+.sign-up-header {
+  margin-top: 23px;
+}
+.log-in {
+  width: 50%;
+  height: 70px;
+  border: solid 2px #555555;
+  margin-top: -70px;
+  margin-left: 178px;
+}
+.log-in-header {
+  margin-top: 23px;
+  text-align: center;
+}
+.active {
+  background-color: #555555;
+  color: #fff;
+}
+input {
+  width: 100%;
+  padding: 12px;
+  border: solid 1px #555555;
+  margin-top: 10px;
+  font-family: inherit;
+}
+.first-name, .last-name {
+  width: 49.4%;
+  margin-top: -5px;
+}
+.last-name {
+  margin-right: 0;
+}
+::placeholder {
+  font-style: italic;
+}
+.email {
+  margin-top: -5px;
+}
+button {
+  width: 100%;
+  margin-top: 10px;
+  padding: 20px;
+  border: solid 2px #555555;
+  background-color: #555555;
+  color: #fff;
+  font-size: 1.4em;
+  text-transform: uppercase;
+}
+button:hover {
+  box-shadow: 5px 5px 10px #d2d2d2;
+  cursor: pointer;
+}
+#sign-up-form {
+  display: block;
+}
+#log-in-form {
+  display: none;
+}
+.password {
+  float: right;
+  font-style: italic;
+  margin-top: 9px
+}
+.password:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+:focus {
+  outline-color: orange;
+}
