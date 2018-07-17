@@ -37,8 +37,12 @@
 
                 <br>
 
+                <input class="form-control" placeholder="First Name"/>
+                <input class="form-control" placeholder="Last Name"/>
+                <input class="form-control" placeholder="Email"/>
                 <input class="form-control" placeholder="Username"/>
                 <input class="form-control" placeholder="Password"/>
+
 
                 <button class="btn btn-primary btn-block">LOG IN</button>
                 <hr>
