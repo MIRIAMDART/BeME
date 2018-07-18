@@ -1,0 +1,13 @@
+{% extends 'tasks/layout.html' %} 
+
+{% block content %}
+
+
+<p>Add a new question:</p>
+<form action="{% url 'forum:new_question' %}" method='post'>
+    {% csrf_token %} 
+    {{ form.as_p }}
+    <button name="submit">add question</button>
+</form>
+
+{% endblock content %}

@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+ckfy_env/
+*.pyc
+*.sqlite3
+.vscode/
+=======
 .idea/
 .git
 .DS_Store
+>>>>>>> 8bf569fd4f8598a7d60ca4f4e80d397164eb1d7d
