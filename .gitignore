@@ -1,4 +1,10 @@
+
 .DS_Store
 .idea/
 .vscode
 *.pyc
+ckfy_env/
+*.sqlite3
+
+
+

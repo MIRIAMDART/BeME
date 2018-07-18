@@ -1,0 +1,15 @@
+{% extends "tasks/layout.html" %} 
+{% block content %}
+
+<p>
+    <a href="{% url 'tasks:topic' topic.id %}">{{ topic }}</a>
+</p>
+<p>Edit note:</p>
+
+<form action="{% url 'tasks:edit_note' note.id %}" method='post'>
+    {% csrf_token %} 
+    {{ form.as_p }}
+    <button name="submit">save changes</button>
+</form>
+
+{% endblock content %}

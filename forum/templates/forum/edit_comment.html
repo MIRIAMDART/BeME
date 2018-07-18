@@ -1,0 +1,15 @@
+{% extends "tasks/layout.html" %} 
+{% block content %}
+
+<p>
+    <a href="{% url 'forum:question' question.id %}">{{ question }}</a>
+</p>
+<p>Edit comment:</p>
+
+<form action="{% url 'forum:edit_comment' comment.id %}" method='post'>
+    {% csrf_token %} 
+    {{ form.as_p }}
+    <button name="submit">save changes</button>
+</form>
+
+{% endblock content %}
