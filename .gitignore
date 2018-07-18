@@ -1,0 +1,4 @@
+ckfy_env/
+*.pyc
+*.sqlite3
+.vscode/

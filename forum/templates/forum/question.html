@@ -1,0 +1,23 @@
+{% extends 'tasks/layout.html' %} 
+
+
+{% block content %}
+<p>Question: {{ question }}</p>
+<p>Comments:</p>
+<p>
+    <a href="{% url 'forum:new_comment' question.id %}">add new comment</a>
+</p>
+<ul>
+    {% for comment in comments %}
+    <li>
+        <p>{{ comment.date_added|date:'M d, Y H:i' }}</p>
+        <p>{{ comment.text|linebreaks }}</p>
+        <p><a href="{% url 'forum:edit_comment' comment.id %}">edit comment</a></p>
+    </li>
+    {% empty %}
+    <li>
+        There are no comments for this question yet.
+    </li>
+    {% endfor %}
+</ul>
+{% endblock content %}

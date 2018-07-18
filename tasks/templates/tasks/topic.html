@@ -1,0 +1,23 @@
+{% extends 'tasks/layout.html' %} 
+
+
+{% block content %}
+<p>Task: {{ topic }}</p>
+<p>Notes:</p>
+<p>
+    <a href="{% url 'tasks:new_note' topic.id %}">add new note</a>
+</p>
+<ul>
+    {% for note in notes %}
+    <li>
+        <p>{{ note.date_added|date:'M d, Y H:i' }}</p>
+        <p>{{ note.text|linebreaks }}</p>
+        <p><a href="{% url 'tasks:edit_note' note.id %}">edit note</a></p>
+    </li>
+    {% empty %}
+    <li>
+        There are no notes for this topic yet.
+    </li>
+    {% endfor %}
+</ul>
+{% endblock content %}
