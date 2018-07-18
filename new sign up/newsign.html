@@ -1,0 +1,43 @@
+ <html>
+  <head>
+    <meta charset="utf-8">
+    <title
+    <title>Sign Up & Log in form</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="sign-up active" id="sign-up-button">
+        <p class="sign-up-header">Sign Up</p>
+      </div>
+      <div class="log-in" id="log-in-button">
+        <p class="log-in-header">Log In</p>
+      </div>
+      <form id="sign-up-form">
+        <div class="header">
+          <h1>Sign Up for Free</h1>
+        </div>
+        <input class="first-name" type="text" placeholder="First Name*" required>
+        <input class="last-name" type="text" placeholder="Last Name*" required>
+        <input type="email" <i class="far fa-envelope" placeholder="Email Address*" required</i>
+        <input type="password" placeholder="Set a password*" required>
+        <button id="sign-up-submit">Get Started</button>
+      </form>
+      <form id="log-in-form">
+        <div class="header">
+          <h1>Welcome back!</h1>
+        </div>
+        <input class="email" type="email" placeholder="Email Address*" required>
+        <input type="password" placeholder="Your password*" required>
+        <div class="password">
+          Forgot Password?
+        </div>
+        <button id="log-in-submit">Log in</button>
+      </form>
+
+    </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="app.js"></script>
+  </body>
+</html>
