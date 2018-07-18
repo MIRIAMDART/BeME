@@ -1,0 +1,154 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>CHECKIFY</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="css/style.css">
+
+        <script src="js/main.js"></script>
+
+        <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    </head>
+
+<body> 
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="index.html">CHECKIFY</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="navbarNavDropdown" class="navbar-collapse collapse">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+        
+                    </ul>
+
+                    <ul class="navbar-nav my-2 my-lg-0">
+                        <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                                    
+                        </form>
+                        <li class="nav-item">
+                                <a class="nav-link" href="dashboard.html">DashBoard</a>
+                        </li>
+
+                        <li class="nav-item">
+                             <a class="nav-link" href="{{ url('/username') }}">Welcome, Username</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url('/logout') }}">Log Out</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </nav>
+
+        <div class="container">
+            <div class="text-center details">
+                <h3>Edit Your Account Details</h3>
+            </div>
+
+            <div class="row">
+                    <div class="col-4">
+                      <div class="list-group" id="list-tab" role="tablist">
+                        <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">
+                            <i class="fa fa-user-circle"></i>&nbsp;Account</a>
+                        <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">
+                                <i class="fa fa-unlock"></i>&nbsp;Change Password</a>
+                        <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">
+                                <i class="fa fa-user-secret"></i>&nbsp;Privacy</a>
+                        <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">
+                                <i class="fa fa-cog"></i>&nbsp;Settings</a>
+                      </div>
+                    </div>
+
+                    <div class="col-8">
+                      <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+                                <div class="form-group">
+                                        <label class="col-md-4 control-label" for="textinput">Change Email ID</label>  
+                                        <div class="col-md-4">
+                                        <input id="textinput" name="textinput" type="text" placeholder="your current email " class="form-control input-md">
+                                        <span class="help-block">your new email ID</span>  
+                                        <input id="textinput" name="textinput" type="text" placeholder="your new email " class="form-control input-md">
+                                        </div>
+                                </div>
+                        </div>
+                        
+
+                        <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+                            <!-- Password input-->
+                            <div class="form-group">
+                                    <label class="col-md-4 control-label" for="passwordinput">new password</label>
+                                    <div class="col-md-4">
+                                      <input id="passwordinput" name="passwordinput" type="password" placeholder="new password" class="form-control input-md">
+                                      
+                                    </div>
+                                  </div>
+                                  
+                                  <!-- Password input-->
+                                  <div class="form-group">
+                                    <label class="col-md-4 control-label" for="passwordinput">repeat password</label>
+                                    <div class="col-md-4">
+                                      <input id="passwordinput" name="passwordinput" type="password" placeholder="repeat password" class="form-control input-md">
+                                      
+                                    </div>
+                                  </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+                            <!-- Select Basic -->
+                            <div class="form-group">
+                                    <label class="col-md-4 control-label" for="selectbasic">set security question</label>
+                                    <div class="col-md-4">
+                                      <select id="selectbasic" name="selectbasic" class="form-control">
+                                        <option value="1">Question 1</option>
+                                        <option value="2">Question 2</option>
+                                        <option value="3">Question 3</option>
+                                      </select>
+                                    </div>
+                                  </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
+                            <!-- Button -->
+                            <div class="form-group">
+                                    <label class="col-md-4 control-label" for="singlebutton">view account status</label>
+                                    <div class="col-md-4">
+                                      <button id="singlebutton" name="singlebutton" class="btn btn-success">view</button>
+                                    </div>
+                                  </div>
+                                  
+                                  <!-- Button -->
+                                  <div class="form-group">
+                                    <label class="col-md-4 control-label" for="singlebutton">Remove my account</label>
+                                    <div class="col-md-4">
+                                      <button id="singlebutton" name="singlebutton" class="btn btn-danger">remove</button>
+                                    </div>
+                                  </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+        </div>
+
+
+               <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+               <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+           
+               <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+</body>
+
+</html>
