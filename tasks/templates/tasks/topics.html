@@ -1,0 +1,18 @@
+{% extends "tasks/layout.html" %} 
+
+{% block content %}
+<p>Tasks</p>
+
+<ul>
+    {% for topic in topics %}
+    <li>
+        <a href="{% url 'tasks:topic' topic.id %}">{{ topic }}</a>
+    </li>
+    {% empty %}
+    <li>No tasks have been added yet.</li>
+    {% endfor %} 
+</ul>
+
+<a href="{% url 'tasks:new_topic' %}">Add a new task:</a>
+
+{% endblock content %}

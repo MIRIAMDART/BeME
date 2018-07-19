@@ -1,0 +1,18 @@
+{% extends "tasks/layout.html" %} 
+
+{% block content %}
+<p>Questions</p>
+
+<ul>
+    {% for question in questions %}
+    <li>
+        <a href="{% url 'forum:question' question.id %}">{{ question }}</a>
+    </li>
+    {% empty %}
+    <li>No questions have been added yet.</li>
+    {% endfor %} 
+</ul>
+
+<a href="{% url 'forum:new_question' %}">Add a new question:</a>
+
+{% endblock content %}
