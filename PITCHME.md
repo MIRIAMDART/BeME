@@ -36,7 +36,7 @@ That's Emerald, The Front End Manager
 
 +++
 
-- The need to keep track of task
+- The need to keep track of tasks
 
 +++
 
@@ -47,7 +47,7 @@ That's Emerald, The Front End Manager
 ---
  
 
-#THE SOLUTION
+## THE SOLUTION
 
 
 +++
@@ -56,15 +56,16 @@ That's Emerald, The Front End Manager
 
 +++
 
-- A task management forum for tracking the progress of Global Code participants 
+- A task management application with an in-built forum. 
 
 +++
 
-- It allows them to make notes of what they have been taught
+- This helps a participant track his/her progress with tasks. 
+- Take notes in real time.
+- Ask Questions if they encounter any problems.
 
 +++
-- it is integrated with a forum
-
+- Make notes
 
 
 ---
@@ -84,36 +85,32 @@ That's Emerald, The Front End Manager
  
 +++
 
-- Front End
+- Planning and Content Creation
+
+- Front End Development (HTML, CSS, JS.
 
 +++
 
-- Back End
+- Back End Development (Django)
+
+- Database (Postgresql for production and Sqlite for Development)
 
 +++
 
-- Database
+- Graphics Design (Logo Design)
 
+- And all the wahala 
 
-+++
-
-- ALL THE WAHALAAAAAAA
----
-
-
- 
 
 ## CHALLENGES ENCOUNTERED
 
-- Merging the front end with the back end
-- Debugging
-- Getting the right information 
-
+- Merging the frontend with the backend
+- The planning
+- Time management
 
 ---
 ## Behind the scenes
  
-
 +++
 
 +++
@@ -124,7 +121,9 @@ That's Emerald, The Front End Manager
 
 ## MOVING ON
 
-- Our Major move is to have this app integrated into the Global Code system in a more customized way
+- Our Major move is to have this app integrated into the Global Code program.
+
+ 
 
 +++
 
