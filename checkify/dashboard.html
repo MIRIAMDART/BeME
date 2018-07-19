@@ -51,153 +51,127 @@
                         </div>
                     </nav>
 
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-sm-4 task">
-                    <div class="wrap">
-                            <div class="header">
-                                <span><i class="fas fa-plus-circle pull-left">Add Task</i></span>
+
+
+<!-- New -->
+<div class="container-fluid task-m">
+    
+    <div class="row">
+        <div class="col-sm-3">
+                <h3>Tasks</h3>
+
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="enter task" aria-label="Recipient's username" aria-describedby="button-addon2">
+                       &nbsp; <button class="btn btn-outline-secondary" type="button" id="button-addon2">Add</button>
+            </div>
+<hr>
+            <ul class="task">      
+                <li class="" data-toggle="modal" data-target="#myModal"><a href="#">Start</a></li>
+            </ul> 
+
+            <ul class="task">      
+                <li class="" data-toggle="modal" data-target="#myModal"><a href="#">Start</a></li>
+            </ul>
+
+            <ul class="task">      
+                <li class="" data-toggle="modal" data-target="#myModal"><a href="#">Start</a></li>
+            </ul>
+    
+
+        <div class="modal fade" id="myModal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Description</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+
+                        <div class="modal-body">
+                            <div class="form-group">
+                                <label for="FormControl">Note</label>
+                                <textarea class="form-control" id="FormControl" rows="3"></textarea>
                             </div>
+                        </div>
 
-                              <div class="wrap-list">
-                                  <ol class="list">
-                                      <li>
-                                          <input type="checkbox" id="check-1" checked="checked">
-                                          <label class="strikethrough">Python</label>
-
-                                            <div class="form-group shadow-textarea">
-                                                <label for="FormControlTextarea">Add Notes</label>
-                                                <textarea class="form-control rounded-0" id="FormControlTextarea" placeholder="Write Your Notes Here" rows="10"></textarea>
-                                            </div>
-                                      </li>
-                                      
-                                      <li>
-                                          <input type="checkbox" name="packersOff" value="1" id="check-2">
-                                          <label class="strikethrough">Raspberry Pi</label>
-
-                                            <div class="form-group shadow-textarea">
-                                                <label for="FormControlTextarea">Add Notes</label>
-                                                <textarea class="form-control rounded-0" id="FormControlTextarea" placeholder="Write Your Notes Here" rows="10"></textarea>
-                                            </div>
-                                      </li>
-
-                                      
-                                      <li>
-                                          <input type="checkbox" name="packersOff" value="1" id="check-3">
-                                          <label class="strikethrough">Advanced Python</label>
-
-                                            <div class="form-group shadow-textarea">
-                                                <label for="FormControlTextarea">Add Notes</label>
-                                                <textarea class="form-control rounded-0" id="FormControlTextarea" placeholder="Write Your Notes Here" rows="10"></textarea>
-                                            </div>
-                                      </li>
-
-                                      <li>
-                                          <input type="checkbox" name="packersOff" value="1" id="check-4">
-                                          <label class="strikethrough">Git And Github</label>
-
-                                            <div class="form-group shadow-textarea">
-                                                <label for="FormControlTextarea">Add Notes</label>
-                                                <textarea class="form-control rounded-0" id="FormControlTextarea" placeholder="Write Your Notes Here" rows="10"></textarea>
-                                            </div>
-                                      </li>
-
-                                      <li>
-                                          <input type="checkbox" name="packersOff" value="1" id="check-5" checked="checked">
-                                          <label class="strikethrough">MQTT</label>
-
-                                            <div class="form-group shadow-textarea">
-                                                <label for="FormControlTextarea">Add Notes</label>
-                                                <textarea class="form-control rounded-0" id="FormControlTextarea" placeholder="Write Your Notes Here" rows="10"></textarea>
-                                            </div>
-                                      </li>
-
-                                      <li>
-                                            <input type="checkbox" name="packersOff" value="1" id="check-5" checked="checked">
-                                            <label class="strikethrough">Web Apis</label>
-
-                                                <div class="form-group shadow-textarea">
-                                                    <label for="FormControlTextarea">Add Notes</label>
-                                                    <textarea class="form-control rounded-0" id="FormControlTextarea" placeholder="Write Your Notes Here" rows="10"></textarea>
-                                                </div>
-                                        </li>
-                                  </ol>
-                              </div>
-                          </div>
-                          </div>
-                        
-
-                        <div class="col-sm-8 wrapper">
-                            
-                            <div class="forum">
-                                <nav aria-label="breadcrumb">
-                                    <ol class="breadcrumb">
-                                        <li class="breadcrumb-item"><a href="account.html">Account</a></li>
-                                        <li class="breadcrumb-item active" aria-current="page">Forum</li>
-                                    </ol>
-                                </nav>
-                            </div>
-                            
-                            <!-- Forums  -->
-                            
-                        
-                                <div class="card text-center">
-                                        <div class="card-header">
-                                          QA Forum
-                                        </div>
-
-                                        <div class="card-body">
-                                          <h5 class="card-title" href="{{ url('/question') }}">How Does Sqlite Work?</h5>
-                                          <p class="card-text mb-0">With supporting text below as a natural lead-in to additional content.</p>
-                                          <footer class="blockquote-footer">A student <cite title="Source Title">Annalise Gray</cite></footer>
-                                        </div>
-
-                                        <div class="card-footer text-muted">
-                                          <p href="href="{{ url('/date and time') }}"">2 days ago</p>
-                                        </div>
-                                </div>
-
-                                    <hr>
-                                <div class="card text-center">
-                                        <div class="card-header">
-                                          QA Forum
-                                        </div>
-
-                                        <div class="card-body">
-                                          <h5 class="card-title" href="{{ url('/question') }}">How Does Sqlite Work?</h5>
-                                          <p class="card-text mb-0">With supporting text below as a natural lead-in to additional content.</p>
-                                          <footer class="blockquote-footer">A student <cite title="Source Title">Annalise Gray</cite></footer>
-                                        </div>
-
-                                        <div class="card-footer text-muted">
-                                          <p href="href="{{ url('/date and time') }}"">2 days ago</p>
-                                        </div>
-                                </div>
-
-                                <nav aria-label="Page navigation example">
-                                        <ul class="pagination justify-content-center">
-                                          <li class="page-item disabled">
-                                            <a class="page-link" href="#" tabindex="-1">Previous</a>
-                                          </li>
-                                          <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                          <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                    
-                                          <li class="page-item">
-                                            <a class="page-link" href="#">Next</a>
-                                          </li>
-                                        </ul>
-                                </nav>
-
-
-                            </div>
-            
-                            <!-- Pagination -->
-                            
-                        
-                            
+                        <div class="modal-footer">
+                            <button  class="btn btn-secondary" data-dismiss="modal">Edit</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
                         </div>
                     </div>
-                
+                </div>
+            </div>
+            </div>
+    
+
+            <div class="col-md-8">
+                    <div class="forum">
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item"><a href="account.html">Account</a></li>
+                                    <li class="breadcrumb-item active" aria-current="page">Forum</li>
+                                </ol>
+                            </nav>
+                        </div>
+                        
+                        <!-- Forums  -->
+                        
+                    
+                            <div class="card text-center">
+                                    <div class="card-header">
+                                      QA Forum
+                                    </div>
+
+                                    <div class="card-body">
+                                      <h5 class="card-title" href="{{ url('/question') }}">How Does Sqlite Work?</h5>
+                                      <p class="card-text mb-0">With supporting text below as a natural lead-in to additional content.</p>
+                                      <footer class="blockquote-footer">A student <cite title="Source Title">Annalise Gray</cite></footer>
+                                    </div>
+
+                                    <div class="card-footer text-muted">
+                                      <p href="href="{{ url('/date and time') }}"">2 days ago</p>
+                                    </div>
+                            </div>
+
+                                <hr>
+                            <div class="card text-center">
+                                    <div class="card-header">
+                                      QA Forum
+                                    </div>
+
+                                    <div class="card-body">
+                                      <h5 class="card-title" href="{{ url('/question') }}">How Does Sqlite Work?</h5>
+                                      <p class="card-text mb-0">With supporting text below as a natural lead-in to additional content.</p>
+                                      <footer class="blockquote-footer">A student <cite title="Source Title">Annalise Gray</cite></footer>
+                                    </div>
+
+                                    <div class="card-footer text-muted">
+                                      <p href="href="{{ url('/date and time') }}"">2 days ago</p>
+                                    </div>
+                            </div>
+
+                            <nav aria-label="Page navigation example">
+                                    <ul class="pagination justify-content-center">
+                                      <li class="page-item disabled">
+                                        <a class="page-link" href="#" tabindex="-1">Previous</a>
+                                      </li>
+                                      <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                      <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                
+                                      <li class="page-item">
+                                        <a class="page-link" href="#">Next</a>
+                                      </li>
+                                    </ul>
+                            </nav>
+
+
+                        </div>
+            </div>
+    </div>
+</div>
+
+                    
                 
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
