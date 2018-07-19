@@ -1,5 +1,5 @@
  
-### 
+
 ## CHECKIFY
 #### The Task Management Forum
 
@@ -12,14 +12,15 @@
 
 +++
 
-####That's Bernard, The Back End Manager
+That's Bernard, The Back End Manager
 
 +++
 
-####That's Emerald, The Front End Manager
+That's Emerald, The Front End Manager
 
 +++
-#### That's Miriam, The Middle End Manager
+
+ That's Miriam, The Middle End Manager
 
 
 
@@ -45,6 +46,7 @@
 
 ---
  
+
 #THE SOLUTION
 
 
@@ -55,7 +57,12 @@
 +++
 
 - A task management forum for tracking the progress of Global Code participants 
+
++++
+
 - It allows them to make notes of what they have been taught
+
++++
 - it is integrated with a forum
 
 
@@ -64,13 +71,18 @@
 
 ##DEMO
 
- url to app
+
+- url to app
 
 
- ---
+---
+
+
+ 
 
 ##PROCESS
  
++++
 
 - Front End
 
@@ -86,7 +98,7 @@
 +++
 
 - ALL THE WAHALAAAAAAA
-
+---
 
 
  
@@ -119,6 +131,10 @@
 - Add a feature that can distinguish your tutors contribution to the forum
 
 
+
++++
+
+THANK YOU FOR COMING
 
 
 
