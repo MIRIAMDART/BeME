@@ -173,7 +173,7 @@ The Team
 
 THANK YOU FOR COMING
 
-          :)
+ :)
  
 
 
