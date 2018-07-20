@@ -127,6 +127,7 @@ The Team
 
 
 
+---
 
 ## CHALLENGES ENCOUNTERED
 
@@ -149,6 +150,7 @@ The Team
 - Time management
 
  
+---
 
 ## MOVING ON
 
