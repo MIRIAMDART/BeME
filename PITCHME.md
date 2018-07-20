@@ -105,14 +105,13 @@ The Team
 <span>Front End Development</span>
 
 -  HTML
--   CSS
--    JS.
+-  CSS
+-  JS.
 
 +++
 
 <span> Back End Development </span>
 
- +++
 
 - Django
 
