@@ -27,6 +27,7 @@ The Team
 
 ## THE PROBLEM
 
++++
 
 - Difficulty in  tracking learning progress
 
@@ -53,7 +54,10 @@ The Team
 +++
 
 - This helps a participant track his/her progress with tasks. 
+
 - Take notes in real time.
+
+
 - Ask Questions if they encounter any problems.
 
 
@@ -108,6 +112,7 @@ The Team
 
 <span> Back End Development </span>
 
+ +++
 
 - Django
 
@@ -120,9 +125,7 @@ The Team
 
 - Logo Design
 
-+++
 
-- And all the wahala 
 
 
 ## CHALLENGES ENCOUNTERED
@@ -164,9 +167,14 @@ The Team
 - Add a feature that can allow you to git add and commit write from the site with a virtual environment
 
 
-THANK YOU FOR COMING 
 
-:smiley:
++++
+
+THANK YOU FOR COMING
+
+          :)
+ 
+
 
 
 
