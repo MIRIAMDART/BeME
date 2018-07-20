@@ -1,6 +1,8 @@
  
 
 ## CHECKIFY
+![Checkify](Database/mainlogo.jpg)
+
 #### The Task Management Forum
 
 
@@ -13,15 +15,17 @@
 +++
 
 That's Bernard, The Back End Manager
+![Bernard](Database/bernard.jpg)
 
 +++
 
 That's Emerald, The Front End Manager
+![Emerald](Database/emerald.jpg)
 
 +++
 
  That's Miriam, The Middle End Manager
-
+![Miriam](Database/mimi.jpg)
 
 
 
@@ -32,15 +36,11 @@ That's Emerald, The Front End Manager
 ## THE PROBLEM
 
 
-- WHY
+- Difficulty in  tracking learning progress
 
 +++
 
-- The need to keep track of tasks
-
-+++
-
-- Inability to communicate with tutors and co-participants after class 
+- Ineffective communication with tutors and co-participants after class 
 
 
 
@@ -64,8 +64,7 @@ That's Emerald, The Front End Manager
 - Take notes in real time.
 - Ask Questions if they encounter any problems.
 
-+++
-- Make notes
+
 
 
 ---
@@ -73,7 +72,7 @@ That's Emerald, The Front End Manager
 ## DEMO
 
 
-- url to app
+
 
 
 ---
@@ -85,7 +84,27 @@ That's Emerald, The Front End Manager
  
 +++
 
-- Planning and Content Creation
+<span class="primary"> Planning and Content Creation
+</span>  
+
++++
+
+![idea](Database/idea.jpg)
+
++++
+
+![Miriam](Database/flowchart.jpg)
++++
+
+![Miriam](Database/mimi.jpg)
+
++++
+
+![Miriam](Database/mimi.jpg)
+
++++
+
+![Miriam](Database/mimi.jpg)
 
 - Front End Development (HTML, CSS, JS.
 
