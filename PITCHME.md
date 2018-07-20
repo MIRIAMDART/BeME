@@ -1,7 +1,8 @@
- 
+
 
 ## CHECKIFY
-![Checkify](Database/mainlogo.jpg)
+
+
 
 #### The Task Management Forum
 
@@ -14,19 +15,10 @@
 
 +++
 
-That's Bernard, The Back End Manager
-![Bernard](Database/bernard.jpg)
+The Team
+![Bernard](Database/BeME.jpg)
 
-+++
-
-That's Emerald, The Front End Manager
-![Emerald](Database/emerald.jpg)
-
-+++
-
- That's Miriam, The Middle End Manager
-![Miriam](Database/mimi.jpg)
-
+ 
 
 
 ---
@@ -72,7 +64,7 @@ That's Emerald, The Front End Manager
 ## DEMO
 
 
-
+[Checkify](https://glblcdcheckify.herokuapp.com)
 
 
 ---
@@ -96,27 +88,38 @@ That's Emerald, The Front End Manager
 ![Miriam](Database/flowchart.jpg)
 +++
 
-![Miriam](Database/mimi.jpg)
+![Miriam](Database/dec.jpg)
 
 +++
 
-![Miriam](Database/mimi.jpg)
+![Miriam](Database/9.jpg)
 
 +++
 
-![Miriam](Database/mimi.jpg)
+![Miriam](Database/dec.jpg)
 
-- Front End Development (HTML, CSS, JS.
+<span>Front End Development</span>
+
+-  HTML
+-   CSS
+-    JS.
 
 +++
 
-- Back End Development (Django)
+<span> Back End Development </span>
+
+- Django
+
 
 - Database (Postgresql for production and Sqlite for Development)
 
 +++
 
-- Graphics Design (Logo Design)
+<span>Graphics Design</span>
+
+- Logo Design
+
++++
 
 - And all the wahala 
 
@@ -124,19 +127,24 @@ That's Emerald, The Front End Manager
 ## CHALLENGES ENCOUNTERED
 
 - Merging the frontend with the backend
+
++++
+![Miriam](Database/5.jpg)
+
++++
+![Miriam](Database/89.jpg)
+
++++
+
+![Miriam](Database/3.jpg)
+
++++
+
 - The planning
+
 - Time management
 
----
-## Behind the scenes
  
-+++
-
-+++
-
-+++
-
----
 
 ## MOVING ON
 
@@ -146,13 +154,18 @@ That's Emerald, The Front End Manager
 
 +++
 
-- Add a feature that can distinguish your tutors contribution to the forum
+- Add a feature that can distinguish a  tutor's contribution to the forum
 
 
 
 +++
 
-THANK YOU FOR COMING
+- Add a feature that can allow you to git add and commit write from the site with a virtual environment
+
+
+THANK YOU FOR COMING 
+
+:smiley:
 
 
 
