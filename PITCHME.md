@@ -1,139 +1,139 @@
----?image=desktop/logo1.png
+ 
 
-### Introducing
 ## CHECKIFY
-#### The Task Management App
-#### by BeME Group of Geeks.
+#### The Task Management Forum
 
 
 ---
 
-## The Checkify Challenge
+## The BeME Team
 
-<span class="primary">How we came up with the Idea for Checkify</span> 
+ BeME stands for **Be**rnard,**M**iriam and **E**merald
 
- BeME which stands for **Be**rnard,**M**iriam and **E**merald realized that at the Global Code Camp participants were learning a huge load of new interesting subject.
++++
 
-From personal observations we realized most of the participants didnt carry along notebooks to note down the things that they learnt.
+That's Bernard, The Back End Manager
 
-yh right :wink: they had laptops so they could easily use their notepads but it hardly crossed thier minds. 
++++
 
-one difficulty was that 
+That's Emerald, The Front End Manager
 
-<span class="primary">What is Checkify.</span>
++++
+
+ That's Miriam, The Middle End Manager
 
 
- Checkify is .............
+
+
+---
+ 
+ 
+
+## THE PROBLEM
+
+
+- WHY
+
++++
+
+- The need to keep track of tasks
+
++++
+
+- Inability to communicate with tutors and co-participants after class 
+
+
+
+---
+ 
+
+## THE SOLUTION
+
+
++++
+
+<span class="primary">Checkify</span> 
+
++++
+
+- A task management application with an in-built forum. 
+
++++
+
+- This helps a participant track his/her progress with tasks. 
+- Take notes in real time.
+- Ask Questions if they encounter any problems.
+
++++
+- Make notes
 
 
 ---
 
-Checkify solves 
-
-<!-- 
-.reveal section img {
-  border: 0;
-  box-shadow: none;
-} 
--->  
-
-## METHODOLOGY
-
-<span class="primary">WHAT DID WE USE TO BUILD CHECKIFY</span>
+## DEMO
 
 
-- Python
-- Html
-- Css
-- Javascipt
-- Django
-- Heroku
+- url to app
 
 
-+++
+---
 
-Better Code Hub checks your code base for <span class="primary">compliance</span> against 10 <span class="primary">software engineering</span> guidelines - and gives you immediate feedback on where to <span class="primary">improve</span>.
-
-![Mockito 10 out of 10](assets/mockito-10-out-of-10.png)
-
-
-+++
-
-it helps you to <span class="primary">write</span> better code... 
-![octodns](assets/octodns.jpg)
-
-
-
-+++
-
-... with a Definition of Done ✅
-![Commons-IO simple units guideline](assets/commons-io-simple-units-guideline.png)
-
-
-+++
-
-Better Code Hub integrates <span class="primary">developer feedback</span> in GitHub
-
-![BCH GitHub flow](assets/bch-github-flow.png)
-
-
-+++
-Ten Guidelines for future-proof code
-
-[Building Maintainable Software](https://shop.oreilly.com/product/0636920049159.do)
-
-![10 guidelines](assets/bms-cover.png)
 
  
 
----
+## PROCESS
+ 
++++
 
-## The Checkify Demo 
+- Planning and Content Creation
 
-<span class="primary">How to qualify</span> 
-
-- Technology or internet startup
-- Less than 18 months old
-- Fewer than 10 employees
-- Less than $1.5M in funding
+- Front End Development (HTML, CSS, JS.
 
 +++
 
-## Requirements
+- Back End Development (Django)
 
-[node.energy](https://node.energy) | Lars Rinn | Frankfurt
-
-[241SoftwareSolutions](https://www.241softwaresolutions.com) | [Robert Iepsma](https://www.linkedin.com/in/robert-iepsma-8237116b) | Amsterdam
+- Database (Postgresql for production and Sqlite for Development)
 
 +++
 
-## Challenges
+- Graphics Design (Logo Design)
 
-- [EduPack: Code Clinics](https://education.github.community/t/a-proposed-add-on-for-code-quality-in-software-engineering-courses-using-github/9067) 
-- [Open Source Spring Cleaning](https://opensourcespringcleaning.github.io/)
-- [Support for Hackathons](https://dev.to/jstvssr/how-a-hackathon-appreciates-quality-code)
+- And all the wahala 
 
 
+## CHALLENGES ENCOUNTERED
+
+- Merging the frontend with the backend
+- The planning
+- Time management
 
 ---
 ## Behind the scenes
-[<span class="primary">Software Improvement Group</span>](https://sig.eu) 
-
-- IT management advisory and measurement
-- Passionate about Getting Software Right
-- Creator of Better Code Hub
+ 
++++
 
 +++
 
-## Get in Touch
++++
 
- 
 ---
 
-## Getting Started for TQ 
+## MOVING ON
+
+- Our Major move is to have this app integrated into the Global Code program.
+
+ 
+
++++
+
+- Add a feature that can distinguish your tutors contribution to the forum
 
 
 
++++
+
+THANK YOU FOR COMING
 
 
 

@@ -23,6 +23,10 @@
     color: rgb(24, 19, 19);
 }
 
+#nav-tabContent {
+  padding-top: 30px;
+}
+
 .list{
 	list-style: none;
 	color: rgba(0,0,0,.7);
@@ -35,6 +39,8 @@
 .task {
     background-color: rgb(162, 234, 236);
     padding: 10px;
+    width: 40%;
+    justify-content: center;
 }
 
 
@@ -59,10 +65,14 @@
     font-size: 20px;
 }
 
+.input-group{
+  width: 40%;
+}
+
 .input-group input {
     font-size: 1.5rem;
     border: 2px solid rgb(219, 111, 111);
-    width: 120px;
+    width: 20px;
     padding: 10px;
 }
 
@@ -81,9 +91,20 @@
     cursor: pointer;
 }
 
+.card {
+  width: 60%;
+  margin: 0 auto 10px;
+}
+
+.task-add {
+  width: 60%;
+  margin: 0 auto 10px;
+  
+}
+
 /* Login  */
 .login-card {
-    padding: 40px;
+    padding: 50px;
     width: 350px;
     height: 400px;
     background-color: #F7F7F7;
@@ -194,3 +215,5 @@
   .jumbotron {
       background-color: khaki;
   }
+
+  
